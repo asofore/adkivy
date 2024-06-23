@@ -139,7 +139,7 @@ android.permissions =INTERNET ,ACCESS_NETWORK_STATE,VIBRATE,READ_EXTERNAL_STORAG
 # android.accept_sdk_license = False
 
 # (str) Android entry point, default is ok for Kivy-based app
-android.entrypoint = com.test.simple.MainActivity
+#android.entrypoint = com.test.simple.MainActivity
 
 # (str) Full name including package path of the Java class that implements Android Activity
 # use that parameter together with android.entrypoint to set custom Java class instead of PythonActivity
@@ -156,7 +156,7 @@ android.activity_class_name = com.test.simple.MainActivity
 
 # (str) Full name including package path of the Java class that implements Python Service
 # use that parameter to set custom Java class which extends PythonService
-android.service_class_name = com.test.simple.MainService
+#android.service_class_name = com.test.simple.MainService
 
 # (str) Android app theme, default is ok for Kivy-based app
 # android.apptheme = "@android:style/Theme.NoTitleBar"
